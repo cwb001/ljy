@@ -41,7 +41,7 @@
     <audio id="audioDom" src="https://sf6-cdn-tos.douyinstatic.com/obj/ies-music/7170534431801838367.mp3" preload="auto" loop="loop"></audio>
 
     <div id="yhBtn" style="position:fixed;top:0;left:0;width:100%;height:100%;z-index:999;display:flex;flex-direction:column;justify-content:center;align-items:center;color:#fff ; font-size:20px    ">
-        <p>💥点击我 (没反应请等待几秒再试)💥</p>
+        <p>💥点击我💥</p>
         <img style="width:64px;margin-bottom:36px " src="files/boom.png">
     </div>
 
@@ -104,14 +104,10 @@ var _hmt = _hmt || [];
         <div class="page_two hide">
 		<br><br>
         <div id="text" style="display:none;">
-		提前祝你新年快乐！<br><br>
+		李佳豫新年快乐！<br><br>
 		龙年快乐 平安喜乐 2024万事如意🧨<br>
 		唯愿烟花像星辰   祝你所愿皆成真🧨<br><br>
-		祝你接力龙年，福气连连！接龙哈🌹<br>
-		发给你最好的10个朋友和5个群，超过15个就永远幸福，不许在你这里断了。<br>
-		今天必须发完，不许偷懒。想起谁，发给谁，包括我😎<br><br>
-		你是第<span id="busuanzi_value_page_pv"></span>个观赏到烟花的人~一定要快乐噢！
-
+		祝你接下来的龙年，福气连连！🌹<br>
 	</div><!--此处已进行修改，优化了倒计时11-->
             <div class="type_words boxText" id="contents" style="font-size:1.08rem;line-height:1.5rem;"></div>
         </div>
@@ -405,7 +401,7 @@ function TimeDown(id, endDateStr) {
 		}, 1000)
 	}else{
 		console.log("到春节啦~");
-		document.getElementById("time").innerHTML =  "除夕夜已经过去啦，祝你新年快乐！";
+		document.getElementById("time").innerHTML =  "除夕夜已经过去啦，李佳豫新年快乐！";
 		if($("#audioDom").attr('src') != 'https://sf86-cdn-tos.douyinstatic.com/obj/tos-cn-ve-2774/b4baa64585924b568460f6887abfdf30'){
 			$("#audioDom").attr('src','https://sf86-cdn-tos.douyinstatic.com/obj/tos-cn-ve-2774/b4baa64585924b568460f6887abfdf30');
 		}
@@ -460,13 +456,13 @@ function time() {
 		document.getElementById("time").innerHTML =  "还有"+diffDays + "天" + diffHours + "小时" + diffMinutes + "分钟" + diffSeconds + "秒就是除夕夜啦!";
 	}else if(time_now > time_chuxi && time_now < time_chunjie){
 		console.log("到除夕啦~");
-		document.getElementById("time").innerHTML =  "除夕快乐~";
+		document.getElementById("time").innerHTML =  "李佳豫除夕快乐~";
 		if($("#audioDom").attr('src') != 'https://sf6-cdn-tos.douyinstatic.com/obj/tos-cn-ve-2774/1274ad0ead904bcfbd556acc4eaeff2e'){
 			$("#audioDom").attr('src','https://sf6-cdn-tos.douyinstatic.com/obj/tos-cn-ve-2774/1274ad0ead904bcfbd556acc4eaeff2e');
 		}
 	}else{
 		console.log("到春节啦~");
-		document.getElementById("time").innerHTML =  "除夕夜已经过去啦，祝你新年快乐！";
+		document.getElementById("time").innerHTML =  "除夕夜已经过去啦，李佳豫新年快乐！";
 		if($("#audioDom").attr('src') != 'https://sf86-cdn-tos.douyinstatic.com/obj/tos-cn-ve-2774/b4baa64585924b568460f6887abfdf30'){
 			$("#audioDom").attr('src','https://sf86-cdn-tos.douyinstatic.com/obj/tos-cn-ve-2774/b4baa64585924b568460f6887abfdf30');
 		}
